@@ -1,0 +1,1 @@
+# test_portraits.py - Portre dosyası testi

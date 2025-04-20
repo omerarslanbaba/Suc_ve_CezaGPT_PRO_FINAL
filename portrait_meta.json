@@ -1,0 +1,335 @@
+{
+  "default.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "katarina.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "katerina.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": true,
+    "valid": true
+  },
+  "katip.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "alyona.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "arabaci.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "bayanlippewechsel.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "bayanraskolnikov.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "birkadinsesi.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "dasenka.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "dimitri.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "duklida.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "dunya.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "emeklisubay.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "enirov.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "erkeksesi.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "jandarma.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "kalip.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "kapici.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "koh.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "lujin.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "lusenka.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": true,
+    "valid": true
+  },
+  "marmeladov.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "masa.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "nastasya.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "nikola.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "patron.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "pestriakov.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "polovoy.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "polya.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "porfiry.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": true,
+    "valid": true
+  },
+  "porfir.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "raskolnikov.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": true,
+    "valid": true
+  },
+  "razumikin.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "siyahlikadin.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  },
+  "sonya.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": true,
+    "valid": true
+  },
+  "ihtiyar.png": {
+    "size": [
+      1024,
+      1024
+    ],
+    "aspect": "square",
+    "transparent": false,
+    "valid": true
+  }
+}
