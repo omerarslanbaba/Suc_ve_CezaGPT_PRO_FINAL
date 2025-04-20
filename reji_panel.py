@@ -7,7 +7,6 @@ def reji_panel(screen, font, font_bold, data_path="ezber_replikleri_temizlenmis.
     clock = pygame.time.Clock()
     input_char = ""
     input_kw = ""
-    selected_index = 0
     scroll = 0
     per_page = 10
 

@@ -39,9 +39,10 @@ class EzberModu:
                 if spk not in portraits:
                     path = f"{self.settings.PORTRAIT_FOLDER}/{spk.lower().replace(' ', '')}.png"
                     try:
-                        portraits[spk] = pygame.image.load(path)
-                    except:
-                        portraits[spk] = pygame.image.load(self.settings.DEFAULT_PORTRAIT_PATH)
+                         portraits[spk] = pygame.image.load(path)
+-                    except:
++                    except Exception:
+                         portraits[spk] = pygame.image.load(self.settings.DEFAULT_PORTRAIT_PATH)
 
         while True:
             for ev in pygame.event.get():

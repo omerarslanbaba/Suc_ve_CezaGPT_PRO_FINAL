@@ -30,10 +30,14 @@ def main_menu(screen, font, font_bold):
         pygame.display.flip()
 
         for ev in pygame.event.get():
-            if ev.type == pygame.QUIT:
-                pygame.quit(); exit()
-            elif ev.type == pygame.KEYDOWN:
-                if ev.key == pygame.K_DOWN:
+         if ev.type == pygame.QUIT:
+-            pygame.quit()
+exit()
++            pygame.quit()
++            exit()
+         elif ev.type == pygame.KEYDOWN:
+             if ev.key == pygame.K_DOWN:
+                 
                     selected = (selected + 1) % len(options)
                 elif ev.key == pygame.K_UP:
                     selected = (selected - 1 + len(options)) % len(options)

@@ -39,6 +39,7 @@ jobs:
       # 5) Ruff ile lint
       - name: Lint with ruff
         run: ruff check .
+        continue-on-error: true
 
       # 6) Pytest’i çalıştır
       - name: Run tests

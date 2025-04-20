@@ -1,6 +1,5 @@
 
 import pygame
-import json
 from data_loader import load_replikler
 from settings import GameSettings
 from ui import scene_selection_menu, draw_replik_screen
@@ -34,10 +33,11 @@ class OkumaModu:
             for spk in r.get("speakers", []):
                 if spk not in portraits:
                     path = f"{self.settings.PORTRAIT_FOLDER}/{spk.lower().replace(' ', '')}.png"
-                    try:
-                        portraits[spk] = pygame.image.load(path)
-                    except:
-                        portraits[spk] = pygame.image.load(self.settings.DEFAULT_PORTRAIT_PATH)
+                     try:
+                         portraits[spk] = pygame.image.load(path)
+-                    except:
++                    except Exception:
+                         portraits[spk] = pygame.image.load(self.settings.DEFAULT_PORTRAIT_PATH)
 
         while True:
             for ev in pygame.event.get():

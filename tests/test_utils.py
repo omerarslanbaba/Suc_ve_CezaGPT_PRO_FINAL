@@ -1,4 +1,5 @@
-import json, types
+import json
+import types
 from pathlib import Path
 from data_loader import normalize_name
 from game_engine import Game

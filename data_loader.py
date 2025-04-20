@@ -1,4 +1,3 @@
-
 import os
 import json
 import unicodedata
@@ -14,10 +13,6 @@ def normalize_name(name):
     key = unicodedata.normalize("NFKD", key)
     return ''.join([c for c in key if not unicodedata.combining(c)])
 
-def load_replikler(path):
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
-
 def load_portraits(replikler, settings):
     portraits = {}
     for r in replikler:
@@ -28,7 +23,11 @@ def load_portraits(replikler, settings):
                 path = os.path.join(settings.PORTRAIT_FOLDER, fn)
                 try:
                     portraits[k] = pygame.image.load(path)
-                except:
+                except Exception:
                     default_path = os.path.join(settings.PORTRAIT_FOLDER, settings.DEFAULT_PORTRAIT)
                     portraits[k] = pygame.image.load(default_path)
     return portraits
+
+def load_replikler(path):
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
