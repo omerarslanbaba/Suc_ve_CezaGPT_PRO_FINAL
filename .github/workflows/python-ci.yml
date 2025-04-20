@@ -15,22 +15,33 @@ jobs:
         python-version: ["3.11", "3.12"]
 
     steps:
+      # 1) Kodu çek
       - uses: actions/checkout@v4
 
+      # 2) İlgili Python sürümünü kur
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
 
+      # 3) Sistem kütüphaneleri (pygame için gerekebilir)
+      - name: Set up system deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-dev libsdl2-dev libsdl2-image-dev
+
+      # 4) Python bağımlılıklarını kur
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements-dev.txt
 
+      # 5) Ruff ile lint
       - name: Lint with ruff
-        run: ruff .
+        run: ruff check .
 
+      # 6) Pytest’i çalıştır
       - name: Run tests
         env:
-          SDL_VIDEODRIVER: dummy  # pygame headless
+          SDL_VIDEODRIVER: dummy   # başsız pygame
         run: pytest -q
